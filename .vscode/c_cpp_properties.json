@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}/mupdf/include",
+                "${workspaceRoot}/src",
+                "${workspaceRoot}/src/utils",
+                "${workspaceRoot}/src/wingui",
+                "${workspaceRoot}/ext/WDL"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_WIN32",
+                "WIN32",
+                "_CRT_SECURE_NO_WARNINGS",
+                "WINVER=0x0a00",
+                "_WIN32_WINNT=0x0a00"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/db/intellisense.db"
+            },
+            "cppStandard": "c++20",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe"
+        }
+    ],
+    "version": 4
+}
